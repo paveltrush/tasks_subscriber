@@ -1,0 +1,22 @@
+{
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.9",
+      "ext-libxml": "*",
+      "ext-json": "*",
+        "monolog/monolog": "^3.7",
+        "irazasyed/telegram-bot-sdk": "^3.14",
+        "lavary/crunz": "^3.2",
+      "ext-apcu": "*"
+    },
+  "autoload": {
+    "psr-4": {
+      "Broadcast\\": "Broadcast/",
+      "Message\\": "Message/",
+      "Cache\\": "Cache/"
+    },
+    "files": [
+      "custom_functions.php"
+    ]
+  }
+}
